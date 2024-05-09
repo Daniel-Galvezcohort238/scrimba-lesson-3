@@ -1,0 +1,17 @@
+1. What is "conditional rendering"?
+
+when you only render something if a condition is met
+
+2. When would you use &&?
+
+when you want to not render anything if the condition is not met
+
+3. When would you use a ternary?
+
+when you want to render something but it you would want to render different things depending on the conditions
+
+4. What if you need to decide between > 2 options on
+   what to display?
+
+you can combine nest ternaries, you can combine ternaries and &&, or you can just call a function that returns a string and the content of that string is determined by
+the conditions

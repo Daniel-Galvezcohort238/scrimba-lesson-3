@@ -1,0 +1,18 @@
+1. What is a "side effect" in React? What are some examples?
+
+a side effect is something that happens when you use React in conjunction with something that goes outside of React's necessary domain. An example is fetching from an API.
+
+2. What is NOT a "side effect" in React? Examples?
+
+something that is not a side effect in React is something that happens when you use React, and only things that are necessarily in React's domain, like a simple isolated 
+state.
+
+3. When does React run your useEffect function? When does it NOT run
+   the effect function?
+   
+React runs the useEffect function when the component renders and the dependency array is changed from its last recorded state. The useEffect function does not run if the 
+dependency array has not changed from its last recorded state.  
+
+4. How would you explain what the "dependecies array" is?
+
+The dependencies array is a state that is specifically used to notice its changes and allow the useEffect function to run.

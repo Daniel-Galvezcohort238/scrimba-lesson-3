@@ -1,0 +1,18 @@
+1. How would you describe the concept of "state"?
+
+my answer: state is a javascript variable that can change and React will render its change reactively
+
+
+
+2. When would you want to use props instead of state?
+
+my answer: you would want to use props for things you dont think will change
+
+
+3. When would you want to use state instead of props?
+
+my answer: you would want to use state for things you think will change
+
+4. What does "immutable" mean? Are props immutable? Is state immutable?
+
+my answer: immutable means not changeable. props are immutable, state is not immutable

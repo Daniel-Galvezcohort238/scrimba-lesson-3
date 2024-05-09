@@ -1,0 +1,11 @@
+.vid30 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.vid30-box {
+    width: 15rem;
+    height: 15rem;
+
+    border-style: solid;
+    background-color: transparent;
+}
